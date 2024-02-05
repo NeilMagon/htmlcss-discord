@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-   
+   box-sizing: border-box;
 }
 
 /*------
@@ -30,6 +30,7 @@ a{
     border-radius: 20px;
     text-decoration: none;
  }
+
  h1{
     font-size: 60px;
  }
@@ -39,8 +40,10 @@ a{
 }
 h2{
     padding: 20px;
-    font-size: 40px;
-    
+    font-size: 40px;   
+}
+h3{
+    font-size: 26px;
 }
 
 /*------
@@ -128,7 +131,7 @@ header  nav ul li{
 }
 
 .grey{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 .col-100{
@@ -137,6 +140,13 @@ header  nav ul li{
 }
 .col{
     text-align: center;
+}
+.star{
+    text-align: center;
+}
+.blue{
+    background-color: #8ea1e1;
+    border-color: #8ea1e1;
 }
 
 /*------
