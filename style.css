@@ -48,6 +48,11 @@ h2{
 h3{
     font-size: 26px;
 }
+i{
+    font-size: 20px;
+    color: white;
+    padding: 0 16px;
+}
 
 /*------
   HEADER
@@ -160,6 +165,16 @@ footer{
 }
 .red{
     width: 30%;
+}
+h3{
+    color: #7289da;
+    padding-bottom: 20px;
+}
+span{
+    color: white;
+}
+.emoticon{
+    padding: 20px 0;
 }
 .column{
     width: 70%;
