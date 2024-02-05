@@ -171,9 +171,12 @@ h3{
     color: #7289da;
     padding-bottom: 20px;
 }
-span{
-    color: white;
+.ita{
+    color: white; 
+    line-height: 47px;
+    padding: 0 10px; 
 }
+
 .emoticon{
     padding: 20px 0;
 }
