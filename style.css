@@ -1,0 +1,126 @@
+/*------
+  RESET
+--------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-style: dashed;
+}
+
+/*------
+  GENERAL
+--------*/
+.container{
+    display: flex;   
+    max-width: 1180px;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+    min-height: 60px;
+    align-items: center;
+}
+
+/*------
+  HEADER
+--------*/
+header{
+    background-color: #add8e6;
+}
+
+.col{
+    border:1px dashed;
+    background-color:#daa520;
+    display: flex;
+    width: 25%;
+    padding: 6px;
+}
+
+.colleft{
+    justify-content: flex-end;
+}
+
+.colright{
+    justify-content: flex-start;
+}
+
+.col50{
+    width: 50%;
+    justify-content: center;
+}
+
+/*------
+  MAIN
+--------*/
+.hero{
+    background-color: #00008b;
+    padding: 20px;
+}
+
+.pink{
+    background-color: #ee82ee;
+    min-height: 300px;
+    width: 700px;
+    margin: auto;
+}
+
+.san{
+    min-height: 400px;
+    margin: 30px 0;
+}
+
+.blue{
+    width: 60%;
+    background-color: #1e90ff;
+}
+
+.lightpink{
+    width: 40%;
+    background-color: #ffc0cb;
+}
+
+.grey{
+    background-color: #d3d3d3;
+}
+
+.green{
+    background-color: #228b22;
+    width: 100%;
+    min-height: 700px;
+}
+
+/*------
+  FOOTER
+--------*/
+
+footer{
+    background-color: #23272a;
+}
+
+.red{
+    background-color: #f08080;
+    width: 30%;
+}
+
+.column{
+    width: 70%;
+    display: flex;
+}
+
+.lightblue{
+    background-color: #20b2aa;
+    width: 25%;
+}
+
+.lightgreen{
+    background-color: #7fffd4;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.lightred{
+    background-color: #ffb6c1;
+    padding: 4px 0;
+}
