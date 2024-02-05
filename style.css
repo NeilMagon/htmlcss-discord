@@ -21,6 +21,9 @@ body{
     display: flex;
     flex-wrap: wrap; 
 }
+ul{
+    list-style: none;
+}
 
 a{
     text-decoration: none; 
@@ -62,7 +65,6 @@ header  nav{
 header  nav ul{
     display: flex;
     justify-content: center;
-    list-style: none;
 }
 header  nav ul li{
     padding: 0 40px;
@@ -156,31 +158,29 @@ header  nav ul li{
 footer{
     background-color: #23272a;
 }
-
 .red{
-    background-color: #f08080;
     width: 30%;
 }
-
 .column{
     width: 70%;
     display: flex;
 }
-
-.lightblue{
-    background-color: #20b2aa;
+.info{
     width: 25%;
 }
+.info ul > li{
+    color: #7289da;
+}
+.info ul li{
+    padding: 10px 0;
+}
 
-.lightgreen{
-    background-color: #7fffd4;
+.footer-bot{
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
 }
-
-.lightred{
-    background-color: #ffb6c1;
+.footer-logo{
     padding: 4px 0;
 }
